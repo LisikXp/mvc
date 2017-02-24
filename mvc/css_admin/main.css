@@ -1,0 +1,362 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "Avenir Next", sans-serif;
+	font-size: 16px;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+.fa-search,
+.fa-bell-o{
+	color: #FFFFFF;
+	font-size: 24px;
+	opacity: 0.5;
+}
+.fa-plus{
+	font-size: 14px;
+	margin-right: 11px;
+}
+.container-fluid{
+	padding: 0;
+}
+header{
+	max-height: 80px;
+}
+
+.top_logo{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #FFFFFF;
+	background-color: #1F2B39;
+	padding: 26px 135px 29px 20px;
+}
+.admin_logo_info label{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 33px;
+	color: #FFFFFF;
+	margin: 0 20px 0 15px;
+}
+.add_button{
+	height: 40px;
+	width: 106px;
+	background-color: #55A747;
+	border: 1px solid #55A747;
+	border-radius: 20px;
+	border: none;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding: 9px 15px 12px 15px;
+}
+
+.top_header{
+	background-color: #2C3E50;
+	height: 80px;
+	padding: 0;
+}
+.admin_logo_info{
+	float: left;
+	padding: 20px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+.top_user_info{
+	float: right;
+	padding: 20px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	
+}
+.top_user_info div{
+	
+	cursor: pointer;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.bell{
+	margin-right: 40px;
+	margin-left: 30px;
+}
+.user,
+.user label{
+	cursor: pointer;
+}
+.user_name{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: right;
+	line-height: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+.user_role{
+	opacity: 0.5;
+	font-family: "Avenir Next";
+	font-size: 13px;
+	text-align: right;
+	line-height: 18px;
+	color: #FFFFFF;
+	display: block;
+}
+
+.user_initials{
+	padding: 8px;
+	background-color: #FFFFFF;
+	border-radius: 100px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 25px;
+	color: #55A747;
+	margin: 0 10px;
+
+}
+.fa-caret-down{
+	color: #FFFFFF;
+	font-size: 16px;
+	opacity: 0.5;
+}
+.dropdown{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.dropdown-content {
+	display: none;
+	text-align: right;
+	position: absolute;
+	background-color: #2C3E50;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	top: 81px;
+	right: 15px;
+	color: #fff;
+	height: 60px;
+	padding: 20px;
+	font-size: 14px;
+	z-index: 9999;
+}
+.dropdown-content input{
+	border: none;
+	background-color: transparent;
+}
+/*------right_menu------*/
+.right_menu{
+	background-color: #2C3E50;
+	
+	padding: 0;
+}
+.right_menu ul li{
+	cursor: pointer;
+	height: 60px;
+	
+}
+.right_menu ul li:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+.right_menu ul li a{
+	/*padding: 21px 100% 20px 20px;*/
+	font-size: 15px;
+	font-weight: 500;/* 
+	line-height: 60px; */
+	color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+.right_menu_active .icon{
+	opacity: 1;
+}
+.menu_padd_active{
+	background-color: rgba(255,255,255,0.2);
+}
+.menu-padding{
+	padding: 17px 10px 17px 20px;
+
+}
+
+/*-------tabs------*/
+.main_table{
+	overflow-y: scroll;
+
+	height: 75vh;
+}
+.main_table table{
+	width: 100%;
+}
+.main_table table tr th{
+	height: 30px;
+	background-color: rgba(216,216,216,0.3);
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 18px;
+	color: #95A5A6;
+	text-align: left;
+}
+.main_table table tr th:first-child{
+	width: 45px;
+}
+.main_table table tr th:nth-child(2){
+	width: 40px;
+}
+.main_table table tr th:nth-child(5){
+	width: 76px;
+}
+.main_table table tr td{
+	font-size: 13px;
+	line-height: 18px;
+	color: #293B52;
+}
+.main_table table tr:nth-child(2n+1) {
+	background-color: rgba(216,216,216,0.3);
+}
+.users_ava{
+	height: 40px;
+	width: 40px;
+	background-color: #F5F5F5;
+	border: 1px solid #E0E0E0;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+.main_table .chek_table{
+	margin: 22px 15px !important;
+}
+.tabs ul li{
+	display: inline-block;
+	margin: 30px 30px 30px 0;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 18px;
+	color: #293B52;
+}
+.tabs ul li.tabs_active{
+	color: #55A747;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #55A747;
+}
+/*checbox*/
+
+input[type="checkbox"]:checked + span::before {
+	content: "";
+	display: block;
+	width: 4px;
+	height: 10px;
+	border: 0 solid rgb(58, 153, 45);
+	border-width: 0 1px 1px 0;
+	-webkit-transform: rotateZ(45deg);
+	margin: 1px 5px;
+	pointer-events: none;
+}
+input[type="checkbox"] + span {
+	-webkit-appearance: none;
+	width: 16px;
+	height: 16px;
+	outline: none;
+	margin: 22px 15px !important;
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+}
+.icon-text{
+
+	bottom: 5px;
+	position: relative;
+}
+.icon {
+	opacity: 0.5;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 22px;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.iconlg {
+	
+	color: #fff;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 32px;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-agents:before {
+	content: "\e901";
+}
+.icon-icon-customers:before {
+	content: "\e903";
+}
+.icon-icon-dashboard:before {
+	content: "\e905";
+}
+.icon-icon-people:before {
+	content: "\e907";
+}
+.icon-icon-stats:before {
+	content: "\e909";
+}
+.icon-icon-vacancy:before {
+	content: "\e90b";
+}
+

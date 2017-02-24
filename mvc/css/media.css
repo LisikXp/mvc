@@ -1,0 +1,121 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media all and (min-width : 1405px) {
+
+	header{
+		height: 300px;
+	}
+
+}
+
+@media all (min-width : 1200px) and (max-width : 1404px) {
+
+	header{
+		height: 300px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media all and (min-width : 981px) and (max-width : 1199px){
+
+	header{
+		height: 300px;
+	}
+}
+
+/* Portrait tablets and Small Devices */
+@media all and (min-width : 768px) and (max-width : 980px){
+
+}
+/* Landscape phones and portrait tablets */
+@media all and (max-width : 767px) {
+
+}
+
+@media all and (max-width: 650px) {
+
+} 
+
+/* Extra Small Devices, Phones */
+@media all and (max-width : 480px) {
+	header {
+		height: 300px;
+		background: url(../img/anketa_fon.png);
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.anketa_info {
+		margin-top: 40px;
+		margin-bottom: 10px;
+		text-align: center;
+		line-height: 40px;
+		color: #FFFFFF;
+	}
+	.anketa_info_first {
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.anketa_info_second {
+		font-size: 14px;
+		font-weight: 300;
+	}
+	#main_form {
+		padding: 0 10px;
+	}
+	.first_row,
+	.second_row,
+	.dig_row {
+		width: 100%!important;
+		display: inline-block;
+		margin: 10px 0;
+	}
+	#education_add, #job_add {
+		float: left;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 21px;
+		color: #3498DB;
+		margin-left: 0;
+	}
+	.langpl {
+		right: 0;
+	}
+	.langen {
+		left: 0;
+	}
+	input[type="submit"] {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	hr {
+		width: 90%;
+	}
+	/*------anketa_send------*/
+	.anketa_send_logo {
+		font-size: 30px;
+	}
+	.anketa_send_main_form {
+		padding: 0 20px;
+	}
+	.main_info_text {
+		font-size: 18px;
+	}
+	.main_info {
+		margin-bottom: 0;
+	}
+	.main_info:last-child {
+		margin-bottom: 50px;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media all and (max-width : 320px) {
+
+}
+
+

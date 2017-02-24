@@ -1,0 +1,50 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media all and (min-width : 1405px) {
+
+	.right_menu{
+		height: 91.7vh;
+	}
+
+}
+
+@media all and  (min-width : 1200px) and (max-width : 1404px) {
+
+	.right_menu{
+		height: 88.1vh;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media all and (min-width : 981px) and (max-width : 1199px){
+
+	
+}
+
+/* Portrait tablets and Small Devices */
+@media all and (min-width : 768px) and (max-width : 980px){
+
+}
+/* Landscape phones and portrait tablets */
+@media all and (max-width : 767px) {
+
+}
+
+@media all and (max-width: 650px) {
+
+} 
+
+/* Extra Small Devices, Phones */
+@media all and (max-width : 480px) {
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media all and (max-width : 320px) {
+
+}
+
+
